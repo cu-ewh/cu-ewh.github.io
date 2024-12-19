@@ -3,7 +3,6 @@ body {
 }
 
 .logo {
-    /* background-color: rgb(100, 100, 100); */
     height: 100px;
     margin-right: 10px;
     align-items: center;
@@ -24,18 +23,18 @@ body {
 .top-navigation-bar-links {
     display: flex;
     justify-content: space-between;
-    align-items: center;
     background-color: rgba(255, 0, 0, 0.468);
 }
 
 .top-navigation-bar a {
-    background-color: aliceblue;
+    border: none;
+    overflow: hidden;
 }
 
 .nav-button {
     cursor: pointer;
     background-color: antiquewhite;
-    height: 100px;
+    height: 100%;
     border: none;
     transition: 300ms;
 }
