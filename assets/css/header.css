@@ -15,19 +15,18 @@
 
     background-color: transparent;
     color: white;
-    
+
     font-size: 16px;
     font-weight: bold;
 
     padding: 5px 16px;
     margin-right: 2px;
 
-    transition: 100ms;
+    transition: 300ms;
 }
 
 .nav-button:hover {
     border-color: white;
-    /* color: black; */
 }
 
 .join-button {
