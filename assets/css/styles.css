@@ -1,9 +1,5 @@
-body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
 .logo {
-    height: 100px;
+    height: 80px;
     margin-right: 10px;
     align-items: center;
     justify-content: center;
@@ -13,12 +9,14 @@ body {
   background-color: rgba(255, 0, 0, 0.403);
 }
 
-.top-navigation-bar {
+
+/* Top Navigation Bar */
+/* .top-navigation-bar {
     display: flex;
-    background-color: rgba(0, 161, 0, 0.294);
+    background-color: #24ABC4;
     overflow: hidden;
     justify-content: space-between;
-}
+} */
 
 .top-navigation-bar-links {
     display: flex;
@@ -33,12 +31,23 @@ body {
 
 .nav-button {
     cursor: pointer;
-    background-color: antiquewhite;
+    background-color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding: 0px 10px 0px 10px;
     height: 100%;
     border: none;
     transition: 300ms;
 }
 
 .nav-button:hover {
-    background-color: rgb(195, 183, 167);
+    background-color: rgb(203, 203, 203);
+}
+
+/* Main Container */
+.main-container {
+    padding: 0px 10px 0px 10px;
+}
+
+.search-icon {
+    height: 50px;
 }
