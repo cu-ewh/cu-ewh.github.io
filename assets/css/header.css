@@ -1,0 +1,48 @@
+.logo {
+    height: 80px;
+    margin-left: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-button {
+    cursor: pointer;
+
+    border: solid;
+    border-width: 2px;
+    border-color: transparent;
+    border-radius: 19px;
+
+    background-color: transparent;
+    color: white;
+    
+    font-size: 16px;
+    font-weight: bold;
+
+    padding: 5px 16px;
+    margin-right: 2px;
+
+    transition: 100ms;
+}
+
+.nav-button:hover {
+    border-color: white;
+    /* color: black; */
+}
+
+.join-button {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px 16px;
+    border: none;
+    border-radius: 19px;
+    transition: 300ms;
+}
+
+.join-button:hover {
+    background-color: rgb(226, 226, 226);
+    color: black;
+}

@@ -28,6 +28,7 @@ p {
     background-color: transparent;
 }
 
-button {
+a {
   font-family: Verdana;
+  text-decoration: none;
 }
