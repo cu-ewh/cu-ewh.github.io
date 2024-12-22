@@ -400,3 +400,6 @@ FodyWeavers.xsd
 # macOS files
 .DS_Store
 assets/.DS_Store
+
+# VS Code files
+.vscode/
