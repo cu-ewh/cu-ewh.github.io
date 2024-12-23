@@ -1,4 +1,6 @@
 html {
+    margin: 0;
+    padding: 0;
     font-family: Raleway, Verdana, Arial;
 }
 
@@ -17,9 +19,20 @@ header {
 }
 
 body {
-    margin: 0;
-    padding-top: 100px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr;
+    grid-template-areas: "main" "footer";
+    grid-template-rows: 1fr 80px;
+
+    margin: 100px 0;
+    /* padding-top: 100px; */
     height: 3000px;
+}
+
+main {
+    margin: 0;
+    padding: 0;
 }
 
 p {
@@ -31,4 +44,16 @@ p {
 a {
   font-family: Verdana;
   text-decoration: none;
+}
+
+section {
+    padding-left: 10px;
+    
+}
+
+footer {
+    height: fit-content;
+    font-size: 10pt;
+    border-top: solid;
+    padding: 10px;
 }

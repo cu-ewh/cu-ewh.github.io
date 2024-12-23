@@ -39,6 +39,7 @@
     border: none;
     border-radius: 19px;
     transition: 300ms;
+    margin-left: 10px;
 }
 
 .join-button:hover {
